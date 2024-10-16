@@ -12,3 +12,12 @@ python = "^3.12"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+exercise1 = 'python_homework_week3:Exercise1'
+exercise2 = 'python_homework_week3:Exercise2'
+exercise3 = 'python_homework_week3:Exercise3'
+exercise4 = 'python_homework_week3:Exercise4'
+exercise5 = 'python_homework_week3:Exercise5'
+exercise6 = 'python_homework_week3:Exercise6'
+exercise7 = 'python_homework_week3:Exercise7'
